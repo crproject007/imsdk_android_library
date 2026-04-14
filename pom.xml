@@ -7,7 +7,6 @@
    <groupId>com.crim</groupId>
    <artifactId>crimsdk</artifactId>
    <version>3.8.0</version>
-   <packaging>aar</packaging>
    
     <dependencies>
         <dependency>
