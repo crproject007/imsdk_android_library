@@ -1,0 +1,13 @@
+before_install:
+  - mvn install:install-file \
+      -Dfile=crim_sdk.jar \
+      -DgroupId=com.crim \
+      -DartifactId=crimsdk \
+      -Dversion=3.8.0 \
+      -Dclassifier=core \
+      -Dpackaging=jar \
+      -DgeneratePom=false
+
+install: 
+  - FILE="-Dfile=crim_sdk.aar" 
+  - mvn install:install-file $FILE -DgroupId=com.crim -DartifactId=crimsdk -Dversion=3.8.0 -Dpackaging=aar -DgeneratePom=true
