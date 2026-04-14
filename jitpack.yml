@@ -1,6 +1,6 @@
 before_install:
   - mvn install:install-file \
-      -Dfile=crim_sdk.jar \
+      -Dfile=crim_sdk-sources.jar \
       -DgroupId=com.crim \
       -DartifactId=crimsdk \
       -Dversion=3.8.0 \
