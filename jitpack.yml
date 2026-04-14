@@ -1,3 +1,0 @@
-install: 
-  - FILE="-Dfile=crim_sdk.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.unicrim.sdk -DartifactId=unicrim -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
