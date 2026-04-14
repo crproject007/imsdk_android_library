@@ -7,4 +7,15 @@
    <groupId>com.crim</groupId>
    <artifactId>crimsdk</artifactId>
    <version>3.8.0</version>
+   <packaging>aar</packaging>
+   
+    <dependencies>
+        <dependency>
+            <groupId>com.crim</groupId>
+            <artifactId>crimsdk</artifactId>
+            <version>3.8.0</version>
+            <classifier>sources</classifier>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 </project>
